@@ -14,3 +14,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Cloud9 IDE - http://c9.io
+.c9revisions
+.c9
