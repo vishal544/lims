@@ -1,6 +1,10 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Name:</strong>
+  <%= @account.name %>
+</p>
+<p>
   <strong>Address:</strong>
   <%= @account.address %>
 </p>
@@ -8,6 +12,18 @@
 <p>
   <strong>Code:</strong>
   <%= @account.code %>
+</p>
+<p>
+  <strong>Phone:</strong>
+  <%= @account.main_phone %>
+</p>
+<p>
+  <strong>Extension:</strong>
+  <%= @account.phone_ext%>
+</p>
+<p>
+  <strong>Email:</strong>
+  <%= @account.email %>
 </p>
 
 <%= link_to 'Edit', edit_account_path(@account) %> |
